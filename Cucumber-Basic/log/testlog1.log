@@ -1,0 +1,30 @@
+2020-10-16 17:03:32,017 [main] INFO ebanking - Running...Open the Chrome Browser
+2020-10-16 17:03:32,022 [main] INFO ebanking - Priniting browser name chrome
+2020-10-16 17:03:32,022 [main] INFO ebanking - Finishing...Open the Chrome Browser
+2020-10-16 17:03:32,027 [main] INFO ebanking - Running...User Open the URL {string}
+2020-10-16 17:03:32,027 [main] INFO ebanking - URL is https://www.google.com/
+2020-10-16 17:03:35,750 [main] INFO ebanking - Finishing...User Open the URL {string}
+2020-10-16 17:03:35,750 [main] INFO ebanking - Running...Search for {string}
+2020-10-16 17:03:41,666 [main] INFO ebanking - Search Query is Clarivate Analytics
+2020-10-16 17:03:41,666 [main] INFO ebanking - Finishing...Search for {string}
+2020-10-16 17:03:41,666 [main] INFO ebanking - Running... Make sure {string} is the first search result
+2020-10-16 17:03:41,725 [main] INFO ebanking - Actual url is clarivate.com
+2020-10-16 17:03:41,725 [main] INFO ebanking - Expected url isclarivate.com
+2020-10-16 17:03:42,155 [main] INFO ebanking - Finishing... Make sure {string} is the first search result
+2020-10-16 17:03:42,155 [main] INFO ebanking - Running... Closing browser
+2020-10-16 17:03:44,487 [main] INFO ebanking - Finshing... Closing browser
+2020-10-16 17:06:54,076 [main] INFO ebanking - Running...Open the Chrome Browser
+2020-10-16 17:06:54,081 [main] INFO ebanking - Priniting browser name chrome
+2020-10-16 17:06:54,081 [main] INFO ebanking - Finishing...Open the Chrome Browser
+2020-10-16 17:06:54,086 [main] INFO ebanking - Running...User Open the URL {string}
+2020-10-16 17:06:54,086 [main] INFO ebanking - URL is https://www.google.com/
+2020-10-16 17:06:56,939 [main] INFO ebanking - Finishing...User Open the URL {string}
+2020-10-16 17:06:56,939 [main] INFO ebanking - Running...Search for {string}
+2020-10-16 17:07:07,395 [main] INFO ebanking - Search Query is Clarivate Analytics
+2020-10-16 17:07:07,400 [main] INFO ebanking - Finishing...Search for {string}
+2020-10-16 17:07:07,400 [main] INFO ebanking - Running... Make sure {string} is the first search result
+2020-10-16 17:07:07,481 [main] INFO ebanking - Actual url is clarivate.com
+2020-10-16 17:07:07,481 [main] INFO ebanking - Expected url isclarivate.com
+2020-10-16 17:07:08,004 [main] INFO ebanking - Finishing... Make sure {string} is the first search result
+2020-10-16 17:07:08,004 [main] INFO ebanking - Running... Closing browser
+2020-10-16 17:07:10,366 [main] INFO ebanking - Finshing... Closing browser
