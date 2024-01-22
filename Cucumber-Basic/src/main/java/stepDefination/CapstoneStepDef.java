@@ -42,8 +42,10 @@ public class CapstoneStepDef extends TestBase {
 		lp=new GoogleHome(driver);
 		Actions action=new Actions(driver);
 		action.moveToElement(element).click();
+		Assert.assertEquals("The Internet", driver.getTitle());
 		takeScreenShot(driver);
 		Log.info("Finishing...User Open the URL {string}");
+		
 
 	}
 
@@ -76,9 +78,13 @@ public class CapstoneStepDef extends TestBase {
 	@And("Navigate back to Home page and click on frames")
 	public void navigateAndClickframes(String string) {
 	driver.navigate().back();
+	Assert.assertEquals("The Internet", driver.getTitle());
 	WebElement frames=driver.findElement(By.xpath("//*[@id=\"content\"]/ul/li[22]/a"));
+	
 	Actions action=new Actions(driver);
 	action.click(frames);
+
+	
 	}
 	
 	@Then("Verify the Nested Frames and iFrame are presented on the Frames Page")
