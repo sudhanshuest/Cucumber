@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Group Test">
+    <test name="Test"  preserve-order="true">
+        <groups>
+            <run>
+                <include name = "group1"></include>
+                <include name = "group2"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qa.rest.tests.GetCall"></class>
+        </classes>
+    </test>
+</suite>
