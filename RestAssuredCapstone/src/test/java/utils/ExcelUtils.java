@@ -4,6 +4,8 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 
 public class ExcelUtils {
@@ -18,11 +20,18 @@ public class ExcelUtils {
             workbook = new XSSFWorkbook(excelPath);
             sheet = workbook.getSheet(sheetName);
 
-        }catch(Exception exp) {
+        }catch(IOException exp) {
             System.out.println(exp.getMessage());
             System.out.println(exp.getCause());
             exp.printStackTrace();
         }
+
+        finally {
+
+            System.out.println("Print Final");
+        }
+
+
     }
 
     public static void getRowCount() {
